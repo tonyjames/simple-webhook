@@ -23,7 +23,7 @@ jobs:
         with:
           containerfiles: |
             ./Containerfile
-          image: silverblue-custom
+          image: simple-webhook
           tags: latest
 
       - name: Log in to GitHub container registry
